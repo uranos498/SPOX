@@ -1,0 +1,163 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ASCOM.Spox.Switch
+</name>
+</assembly>
+<members>
+<member name="P:ASCOM.Spox.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:ASCOM.Spox.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:ASCOM.Spox.My.Resources.Resources.ASCOM">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:ASCOM.Spox.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:ASCOM.Spox.Switch.SetupDialog">
+	<summary>
+ Displays the Setup Dialog form.
+ If the user clicks the OK button to dismiss the form, then
+ the new settings are saved, otherwise the old values are reloaded.
+ THIS IS THE ONLY PLACE WHERE SHOWING USER INTERFACE IS ALLOWED!
+ </summary>
+</member><member name="P:ASCOM.Spox.Switch.MaxSwitch">
+	<summary>
+ The number of switches managed by this driver
+ </summary>
+</member><member name="M:ASCOM.Spox.Switch.GetSwitchName(System.Int16)">
+	<summary>
+ Return the name of switch n
+ </summary>
+	<param name="id">The switch number to return</param>
+	<returns>The name of the switch</returns>
+</member><member name="M:ASCOM.Spox.Switch.SetSwitchName(System.Int16,System.String)">
+	<summary>
+ Sets a switch name to a specified value
+ </summary>
+	<param name="id">The number of the switch whose name is to be set</param>
+	<param name="name">The name of the switch</param>
+</member><member name="M:ASCOM.Spox.Switch.GetSwitchDescription(System.Int16)">
+	<summary>
+ Gets the description of the specified switch. This is to allow a fuller description of
+ the switch to be returned, for example for a tool tip.
+ </summary>
+	<param name="id">The number of the switch whose description is to be returned</param><returns></returns>
+	<exception cref="T:ASCOM.MethodNotImplementedException">If the method is not implemented</exception>
+	<exception cref="T:ASCOM.InvalidValueException">If id is outside the range 0 to MaxSwitch - 1</exception>
+</member><member name="M:ASCOM.Spox.Switch.CanWrite(System.Int16)">
+	<summary>
+ Reports if the specified switch can be written to.
+ This is false if the switch cannot be written to, for example a limit switch or a sensor.
+ The default is true.
+ </summary>
+	<param name="id">The number of the switch whose write state is to be returned</param><returns>
+		<c>true</c> if the switch can be set, otherwise <c>false</c>.
+ </returns>
+	<exception cref="T:ASCOM.MethodNotImplementedException">If the method is not implemented</exception>
+	<exception cref="T:ASCOM.InvalidValueException">If id is outside the range 0 to MaxSwitch - 1</exception>
+</member><member name="M:ASCOM.Spox.Switch.GetSwitch(System.Int16)">
+	<summary>
+ Return the state of switch n as a boolean
+ A multi-value switch must throw a MethodNotImplementedException.
+ </summary>
+	<param name="id">The switch number to return</param>
+	<returns>True or false</returns>
+</member><member name="M:ASCOM.Spox.Switch.SetSwitch(System.Int16,System.Boolean)">
+	<summary>
+ Sets a switch to the specified state, true or false.
+ If the switch cannot be set then throws a MethodNotImplementedException.
+ A multi-value switch must throw a MethodNotImplementedException.
+ </summary>
+	<param name="ID">The number of the switch to set</param>
+	<param name="State">The required switch state</param>
+</member><member name="M:ASCOM.Spox.Switch.MaxSwitchValue(System.Int16)">
+	<summary>
+ returns the maximum analogue value for this switch
+ boolean switches must return 1.0
+ </summary>
+	<param name="id"></param>
+	<returns></returns>
+</member><member name="M:ASCOM.Spox.Switch.MinSwitchValue(System.Int16)">
+	<summary>
+ returns the minimum analogue value for this switch
+ boolean switches must return 0.0
+ </summary>
+	<param name="id"></param>
+	<returns></returns>
+</member><member name="M:ASCOM.Spox.Switch.SwitchStep(System.Int16)">
+	<summary>
+ returns the step size that this switch supports. This gives the difference between
+ successive values of the switch.
+ The number of values is ((MaxSwitchValue - MinSwitchValue) / SwitchStep) + 1
+ boolean switches must return 1.0, giving two states.
+ </summary>
+	<param name="id"></param>
+	<returns></returns>
+</member><member name="M:ASCOM.Spox.Switch.GetSwitchValue(System.Int16)">
+	<summary>
+ returns the analogue switch value for switch id
+ boolean switches must throw a MethodNotImplementedException
+ </summary>
+	<param name="id"></param>
+	<returns></returns>
+</member><member name="M:ASCOM.Spox.Switch.SetSwitchValue(System.Int16,System.Double)">
+	<summary>
+ set the analogue value for this switch.
+ If the switch cannot be set then throws a MethodNotImplementedException.
+ If the value is not between the maximum and minimum then throws an InvalidValueException
+ boolean switches must throw a MethodNotImplementedException
+ </summary>
+	<param name="id"></param>
+	<param name="value"></param>
+</member><member name="M:ASCOM.Spox.Switch.Validate(System.String,System.Int16)">
+	<summary>
+ Checks that the switch id is in range and throws an InvalidValueException if it isn't
+ </summary>
+	<param name="message">The message.</param>
+	<param name="id">The id.</param>
+</member><member name="M:ASCOM.Spox.Switch.Validate(System.String,System.Int16,System.Boolean)">
+	<summary>
+ Checks that the number of states for the switch is correct and throws a methodNotImplemented exception if not.
+ Boolean switches must have 2 states and multi-value switches more than 2.
+ </summary>
+	<param name="message"></param>
+	<param name="id"></param>
+	<param name="expectBoolean"></param>
+</member><member name="M:ASCOM.Spox.Switch.Validate(System.String,System.Int16,System.Double)">
+	<summary>
+ Checks that the switch id and value are in range and throws an
+ InvalidValueException if they are not.
+ </summary>
+	<param name="message">The message.</param>
+	<param name="id">The id.</param>
+	<param name="value">The value.</param>
+</member><member name="P:ASCOM.Spox.Switch.IsConnected">
+	<summary>
+ Returns true if there is a valid connection to the driver hardware
+ </summary>
+</member><member name="M:ASCOM.Spox.Switch.CheckConnected(System.String)">
+	<summary>
+ Use this function to throw an exception if we aren't connected to the hardware
+ </summary>
+	<param name="message"></param>
+</member><member name="M:ASCOM.Spox.Switch.ReadProfile">
+	<summary>
+ Read the device configuration from the ASCOM Profile store
+ </summary>
+</member><member name="M:ASCOM.Spox.Switch.WriteProfile">
+	<summary>
+ Write the device configuration to the  ASCOM  Profile store
+ </summary>
+</member>
+</members>
+</doc>

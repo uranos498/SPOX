@@ -1,0 +1,14 @@
+J:\Developpements\Projets_2015\Spox\Spox_Gui\bin\Debug\Spox_Gui.exe.config
+J:\Developpements\Projets_2015\Spox\Spox_Gui\bin\Debug\Spox_Gui.exe
+J:\Developpements\Projets_2015\Spox\Spox_Gui\bin\Debug\Spox_Gui.pdb
+J:\Developpements\Projets_2015\Spox\Spox_Gui\bin\Debug\Spox_Gui.xml
+J:\Developpements\Projets_2015\Spox\Spox_Gui\bin\Debug\Spox_Dll.dll
+J:\Developpements\Projets_2015\Spox\Spox_Gui\bin\Debug\Spox_Dll.pdb
+J:\Developpements\Projets_2015\Spox\Spox_Gui\bin\Debug\Spox_Dll.xml
+J:\Developpements\Projets_2015\Spox\Spox_Gui\obj\Debug\Spox_Gui.vbprojResolveAssemblyReference.cache
+J:\Developpements\Projets_2015\Spox\Spox_Gui\obj\Debug\Spox_Gui.Resources.resources
+J:\Developpements\Projets_2015\Spox\Spox_Gui\obj\Debug\Spox_Gui.Spox_Gui.resources
+J:\Developpements\Projets_2015\Spox\Spox_Gui\obj\Debug\Spox_Gui.vbproj.GenerateResource.Cache
+J:\Developpements\Projets_2015\Spox\Spox_Gui\obj\Debug\Spox_Gui.exe
+J:\Developpements\Projets_2015\Spox\Spox_Gui\obj\Debug\Spox_Gui.xml
+J:\Developpements\Projets_2015\Spox\Spox_Gui\obj\Debug\Spox_Gui.pdb

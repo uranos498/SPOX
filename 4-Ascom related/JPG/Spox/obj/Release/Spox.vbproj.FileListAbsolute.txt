@@ -1,0 +1,12 @@
+J:\Developpements\Projets_2015\Spox\Spox\bin\Release\ASCOM.Spox.Switch.dll.config
+J:\Developpements\Projets_2015\Spox\Spox\bin\Release\ASCOM.Spox.Switch.dll
+J:\Developpements\Projets_2015\Spox\Spox\bin\Release\ASCOM.Spox.Switch.xml
+J:\Developpements\Projets_2015\Spox\Spox\bin\Release\ASCOM.Spox.Switch.tlb
+J:\Developpements\Projets_2015\Spox\Spox\bin\Release\Spox_Dll.dll
+J:\Developpements\Projets_2015\Spox\Spox\bin\Release\Spox_Dll.pdb
+J:\Developpements\Projets_2015\Spox\Spox\bin\Release\Spox_Dll.xml
+J:\Developpements\Projets_2015\Spox\Spox\obj\Release\ASCOM.Spox.Resources.resources
+J:\Developpements\Projets_2015\Spox\Spox\obj\Release\ASCOM.Spox.SetupDialogForm.resources
+J:\Developpements\Projets_2015\Spox\Spox\obj\Release\Spox.vbproj.GenerateResource.Cache
+J:\Developpements\Projets_2015\Spox\Spox\obj\Release\ASCOM.Spox.Switch.dll
+J:\Developpements\Projets_2015\Spox\Spox\obj\Release\ASCOM.Spox.Switch.xml

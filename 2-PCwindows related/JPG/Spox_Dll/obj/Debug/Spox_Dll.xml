@@ -1,0 +1,54 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Spox_Dll
+</name>
+</assembly>
+<members>
+<member name="M:Spox_Dll.Spox_Dll.SetLed(System.IO.Ports.SerialPort@,System.Char@,System.Boolean@)">
+	<summary>
+ Set the referenced Led.
+ </summary>
+	<param name="com">The connected com port.</param>
+	<param name="led">The # on the concerned Led [1,2].</param>
+	<param name="State">The state to set [On=true, Off=False].</param>
+</member><member name="M:Spox_Dll.Spox_Dll.GetLed(System.IO.Ports.SerialPort@,System.Char@)">
+	<summary>
+ Get the state of the referenced Led.
+ </summary>
+	<param name="com">The connected com port.</param>
+	<param name="led">The # on the concerned Led [1,2].</param>
+</member><member name="M:Spox_Dll.Spox_Dll.GetAnalog(System.IO.Ports.SerialPort@)">
+	<summary>
+ Get the current Analog Value.
+ </summary>
+	<param name="com">The connected com port.</param>
+</member><member name="M:Spox_Dll.Spox_Dll.SetTrigger(System.IO.Ports.SerialPort@,System.Char@,System.Int32@)">
+	<summary>
+ Set the trigger value for led#.
+ </summary>
+	<param name="com">The connected com port.</param>
+	<param name="led">The # on the concerned Led [1,2].</param>
+	<param name="TriggerValue">The The value of the Alarl Trigger on this way.</param>
+</member><member name="M:Spox_Dll.Spox_Dll.ReadAlarm(System.IO.Ports.SerialPort@)">
+	<summary>
+ Read the alarm State (boolean).
+ </summary>
+	<param name="com">The connected com port.</param>
+</member><member name="P:Spox_Dll.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Spox_Dll.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:Spox_Dll.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

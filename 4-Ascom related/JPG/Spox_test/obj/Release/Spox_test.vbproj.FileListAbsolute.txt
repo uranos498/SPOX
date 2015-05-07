@@ -1,0 +1,13 @@
+J:\Developpements\Projets_2015\Spox\Spox_test\bin\Release\ASCOM.Spox.Test.exe.config
+J:\Developpements\Projets_2015\Spox\Spox_test\bin\Release\ASCOM.Spox.Test.exe
+J:\Developpements\Projets_2015\Spox\Spox_test\bin\Release\ASCOM.Spox.Test.pdb
+J:\Developpements\Projets_2015\Spox\Spox_test\bin\Release\ASCOM.Spox.Test.xml
+J:\Developpements\Projets_2015\Spox\Spox_test\bin\Release\Spox_Dll.dll
+J:\Developpements\Projets_2015\Spox\Spox_test\bin\Release\Spox_Dll.pdb
+J:\Developpements\Projets_2015\Spox\Spox_test\bin\Release\Spox_Dll.xml
+J:\Developpements\Projets_2015\Spox\Spox_test\obj\Release\ASCOM.Spox.Spox_Test.resources
+J:\Developpements\Projets_2015\Spox\Spox_test\obj\Release\ASCOM.Spox.Resources.resources
+J:\Developpements\Projets_2015\Spox\Spox_test\obj\Release\Spox_test.vbproj.GenerateResource.Cache
+J:\Developpements\Projets_2015\Spox\Spox_test\obj\Release\ASCOM.Spox.Test.exe
+J:\Developpements\Projets_2015\Spox\Spox_test\obj\Release\ASCOM.Spox.Test.xml
+J:\Developpements\Projets_2015\Spox\Spox_test\obj\Release\ASCOM.Spox.Test.pdb
